@@ -1,5 +1,13 @@
 #top-menu {
-    background-color: #05C3DE !important;
+	background-color: #05C3DE !important;
+}
+
+#top-menu li>a:hover {
+	background: #CCC;
+}
+
+#logo {
+	background-color: #000 !important;
 }
 
 #logo .home-link {
