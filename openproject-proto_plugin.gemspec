@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.email       = "contact@lifeds.fr"
   s.homepage    = "https://community.openproject.org/projects/proto-plugin"  # TODO check this URL
   s.summary     = 'OpenProject LDS theme'
-  s.description = "An OpenProject graphic theme"
+  s.description = "An OpenProject graphic theme for Life Design Sonore company"
   s.license     = "GPLv3"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + %w(CHANGELOG.md README.md)
