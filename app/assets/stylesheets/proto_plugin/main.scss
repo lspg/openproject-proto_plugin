@@ -7,7 +7,7 @@
 // :header_tags view hook (see `lib/open_project/proto_plugin/hooks.rb`).
 
 #top-menu #header #logo {
-  background: #{image-url("logo_lds.png") no-repeat 20px 0}' !important;
+  background: #{image-url("logo_lds.png") no-repeat 20px 0} !important;
 }
 
 #homescreen-after-links .widget-box {

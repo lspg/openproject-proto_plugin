@@ -13,7 +13,6 @@ module OpenProject::ProtoPlugin
     render_on :view_layouts_base_html_head, inline: <<-VIEW
 <% content_for :header_tags do %>
   <%= stylesheet_link_tag 'proto_plugin/main', plugin: :openproject_proto_plugin %>
-  <%= javascript_include_tag 'proto_plugin/main', plugin: :openproject_proto_plugin %>
 <% end %>
 VIEW
 
