@@ -8,11 +8,11 @@ module OpenProject::ProtoPlugin
 
     include OpenProject::Plugins::ActsAsOpEngine
 
-    # register(
-    #   'openproject-proto_plugin',
-    #   :author_url => 'https://openproject.org',
-    #   :requires_openproject => '>= 6.0.0'
-    # ) do
+    register(
+      'openproject-proto_plugin',
+      :author_url => 'https://openproject.org',
+      :requires_openproject => '>= 6.0.0'
+    ) do
       # We define a new project module here for our controller including a permission.
       # The permission is necessary for us to be able to add menu items to the project
       # menu. You will not need to add a permission for adding menu items to the `top_menu`
@@ -32,7 +32,7 @@ module OpenProject::ProtoPlugin
     #        caption: "Kittens",
     #        html: { class: 'icon2 icon-bug', id: "kittens-menu-item" },
     #        if: ->(project) { true }
-    # end
+    end
 
     initializer 'proto_plugin.register_hooks' do
       require 'open_project/proto_plugin/hooks'
