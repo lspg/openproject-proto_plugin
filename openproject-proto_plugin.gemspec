@@ -6,11 +6,11 @@ require 'open_project/proto_plugin/version'
 Gem::Specification.new do |s|
   s.name        = "openproject-proto_plugin"
   s.version     = OpenProject::ProtoPlugin::VERSION
-  s.authors     = "OpenProject GmbH"
-  s.email       = "info@openproject.org"
+  s.authors     = "Life Design Sonore"
+  s.email       = "contact@lifeds.fr"
   s.homepage    = "https://community.openproject.org/projects/proto-plugin"  # TODO check this URL
-  s.summary     = 'OpenProject Proto Plugin'
-  s.description = "A prototypical OpenProject plugin"
+  s.summary     = 'OpenProject LDS theme'
+  s.description = "An OpenProject graphic theme"
   s.license     = "GPLv3"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + %w(CHANGELOG.md README.md)
