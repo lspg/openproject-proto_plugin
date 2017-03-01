@@ -54,6 +54,6 @@ module OpenProject::ProtoPlugin
       end
     end
 
-    assets %w(proto_plugin/main.css proto_plugin/main.js kitty.png)
+    assets %w(proto_plugin/main.css proto_plugin/main.js kitty.png lds/lds_logo.png)
   end
 end

@@ -6,8 +6,9 @@
 // For this example plugin the file is included into every page through the
 // :header_tags view hook (see `lib/open_project/proto_plugin/hooks.rb`).
 
-#top-menu #header #logo {
+#logo {
   background: #{image-url("logo_lds.png") no-repeat 20px 0} !important;
+  background: none !important;
 }
 
 #homescreen-after-links .widget-box {
